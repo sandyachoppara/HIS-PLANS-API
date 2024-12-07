@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: PLANS-API
+  config:
+    import: optional:configserver:http://localhost:2222
